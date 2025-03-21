@@ -7,11 +7,11 @@ while True:
 	if abs(pos()) < 1:
 		break
 end_fill()
-color('blue','purple')
+color('gold','pink')
 begin_fill()
 while True:
-	forward(500)
-	left(470)
+	back(250)
+	righ(245)
 	if abs(pos()) < 1:
 		break
 done()
